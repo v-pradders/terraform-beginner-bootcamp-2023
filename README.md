@@ -45,3 +45,20 @@ or use `source ../bin/install_terraform_cli` and no permission update required.
 init will not rerun if existing workspace restarted, before will be used
 
 also gitpod yml will be updated to use the newly created bash script
+
+## Install AWS CLI
+
+### Refactor AWS CLI
+AWS installation steps are working fine already in the gitpod yml file, just that installation steps should be refactored as bash
+
+### installation steps
+- similar to terraform cli installation refactoring
+- added shebang
+- additional added commands to remove installation download files and folders using rm & rm -rf commands
+- remaining install commands copied from gitpod yml file to install_aws_cli bash
+
+### AWS user details
+We can identify if AWS credentials are configured correctly by running below:
+```sh
+aws sts get-caller-identity
+```
