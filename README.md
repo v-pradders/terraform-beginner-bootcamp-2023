@@ -62,3 +62,9 @@ We can identify if AWS credentials are configured correctly by running below:
 ```sh
 aws sts get-caller-identity
 ```
+## added main.tf with provider information
+## added main.tf with random and s3 bucket creation resources
+## tried terraform init, plan, apply and destroy commands first time
+## created new generate tfrc credentials bash file
+## set gp env with correct token obtained from this link [login] (https://app.terraform.io/app/settings/tokens?source=terraform-login)
+## ran terraform , init, plan , apply - saw the resources are appearing in terraform cloud
