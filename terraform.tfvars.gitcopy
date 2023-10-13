@@ -1,0 +1,4 @@
+cricket_bucket_name = "1bccx35qgqombk83vpy379xq21xqpabc"
+user_uuid = "4a67f1e4-1e49-494c-9c69-4143f6d8bfc6"
+root_path = "/workspace/terraform-beginner-bootcamp-2023"
+invalidate_cache = 1
